@@ -1,8 +1,8 @@
-# Dial App Launcher for Stream Deck
+# App Wheel Launcher for Stream Deck
 
 Turn a Stream Deck + dial and a launcher wheel appears on your screen. Rotate to choose an app, press to open it.
 
-![The Dial App Launcher wheel](images/hero.png)
+![The App Wheel Launcher wheel](images/hero.png)
 
 Open apps, games, files, folders, Store apps and websites from one dial. You can also put the wheel on a key of any Stream Deck model and pick with the mouse or keyboard.
 
@@ -41,14 +41,18 @@ Icons are picked up from the apps and files themselves.
 
 Each dial and key has its own list, so you can set up several wheels, e.g. one for apps, one for games and one for folders.
 
+![Small, medium and large wheels](images/sizes.png)
+
 ## Setup
 1. Drag the **App Wheel** action onto a dial (or a key).
 2. In its settings, add the apps, files, folders or links you want.
 3. Turn the dial.
 
+![The settings](images/settings.png)
+
 ## Good to know
 - The wheel can't appear over games that run in **exclusive fullscreen**. Switch the game to borderless or windowed mode.
-- On first start the plugin prepares the wheel with the .NET Framework that is part of Windows. This takes about a second and happens once. If your antivirus asks about `overlay-….exe` in `%LOCALAPPDATA%\NiQzen\DialAppLauncher`, that is the wheel.
+- On first start the plugin prepares the wheel with the .NET Framework that is part of Windows. This takes about a second and happens once. If your antivirus asks about `overlay-….exe` in `%LOCALAPPDATA%\NiQzen\AppWheelLauncher`, that is the wheel.
 - Apps set to *Run as administrator* show the Windows permission prompt.
 
 ## Requirements
